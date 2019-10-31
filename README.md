@@ -12,6 +12,9 @@ https://github.com/kubernetes/kubernetes/tree/master/pkg/scheduler
 
 We will take reference from the official kubernetes documentation to implement a second scheduler which will be a replica of the default scheduler. We will name the new scheduler as - **myscheduler** adn the default scheduler will be named as **default-scheduler**. The original demo is referenced at - https://kubernetes.io/docs/tasks/administer-cluster/configure-multiple-schedulers/
 
+**Note** that for this demo we will be building kubernetes on the master node. It is highly recommended that you have atleast 6 CPU, 15 GB of memory and 30 GB of storage on the node where you will execute the **make** command 
+
+
 Lets start off by 
 
 * Build kubernetes from source
